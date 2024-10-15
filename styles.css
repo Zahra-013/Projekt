@@ -77,3 +77,41 @@ header a {
     background-color: #353535;
     border-radius: 3px;
 }
+
+main {
+    margin-top: 100px;
+    max-width: 1000px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#hero div {
+    grid-column: 1;
+}
+
+#hero img {
+    width: 100%;
+    grid-column: 2;
+}
+
+#hero div h1 {
+    margin-bottom: 0;
+    font-size: 53px;
+}
+
+#hero div p {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    color: #7f7f7f;
+    font-size: 18px;
+}
+
+#button2 {
+    text-decoration: none;
+    padding: 7px 15px;
+    display: inline;
+}
