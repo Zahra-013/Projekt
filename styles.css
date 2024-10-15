@@ -134,7 +134,7 @@ main {
     object-fit: contain;
 }
 
-#section1 {
+.section {
     margin-top: 75px;
 }
 
@@ -199,4 +199,8 @@ main {
     font-size: 12px;
     font-weight: 320;
     color: #7f7f7f;
+}
+
+#quote2 {
+    text-align: justify;
 }
