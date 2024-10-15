@@ -210,13 +210,16 @@ main {
 #plan {
     margin: 75px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-top: 1.5px solid #e5e5e5;
+    border-bottom: 1.5px solid #e5e5e5;
 }
 
 #offer {
     margin-top: 100px;
+    margin-bottom: 50px;
     width: 55%;
     text-align: center;
 }
@@ -238,4 +241,36 @@ main {
 #button3 {
     text-decoration: none;
     padding: 7px 15px;
+}
+
+#features {
+    margin-bottom: 75px;
+    width: 60%;
+    background-color: #f4f4f4;
+    padding: 20px 30px;
+    border-radius: 3px;
+}
+
+.listItem {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: #7f7f7f;
+    font-size: 14px;
+    font-weight: 450;
+    border-bottom: 1.5px solid #e5e5e5;
+    padding: 10px 0;
+}
+
+#barky {
+    color: black;
+    font-weight: 450;
+}
+
+.check {
+    width: 15px;
+}
+
+#lastItem {
+    border-bottom: none;
 }
