@@ -24,6 +24,7 @@ header {
     display: flex;
     gap: 15px;
 
+    background-color: white;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -72,8 +73,7 @@ header a {
     font-size: 13.5px;
 }
 
-#rightMenu .button:hover,
-#hero .button:hover {
+.button:hover {
     background-color: #353535;
     border-radius: 3px;
 }
@@ -113,7 +113,6 @@ main {
 #button2 {
     text-decoration: none;
     padding: 7px 15px;
-    display: inline;
 }
 
 #logos {
@@ -206,4 +205,37 @@ main {
 
 #quote3 {
     font-size: 38px;
+}
+
+#plan {
+    margin: 75px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1.5px solid #e5e5e5;
+}
+
+#offer {
+    margin-top: 100px;
+    width: 55%;
+    text-align: center;
+}
+
+#offer h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#offer p {
+    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #7f7f7f;
+    line-height: 1.5;
+}
+
+#button3 {
+    text-decoration: none;
+    padding: 7px 15px;
 }
