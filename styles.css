@@ -363,3 +363,33 @@ main {
 #badges {
     width: 100%;
 }
+
+#percentages {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+    gap: 25px;
+    text-align: center;
+    width: 90%;
+}
+
+#percentages div {
+    padding: 5px;
+}
+
+#percentages h3 {
+    margin: 0;
+    color: #666666;
+    font-size: 45px;
+}
+
+#percentages p {
+    margin: 0;
+    margin-top: 5px;
+    color: #7f7f7f;
+    font-size: 14px;
+}
+
+.partingLine {
+    border-left: 1px solid #e5e5e5;
+}
