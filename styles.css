@@ -387,9 +387,31 @@ main {
     margin: 0;
     margin-top: 5px;
     color: #7f7f7f;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .partingLine {
     border-left: 1px solid #e5e5e5;
+}
+
+#try {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#try h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#try p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #7f7f7f;
+}
+
+#button4 {
+    text-decoration: none;
+    padding: 7px 15px;
 }
