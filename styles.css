@@ -415,9 +415,15 @@ footer {
     border-top: 1px solid #e5e5e5;
     margin: 0 15px;
     max-width: 1200px;
+    padding: 75px 100px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
 }
 
 #share {
+    margin-top: 20px;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: repeat(5, 20px);
     gap: 10px;
@@ -428,5 +434,10 @@ footer {
 }
 
 #brandFooter {
-    width: 120px;
+    width: 130px;
+}
+
+#contact p {
+    font-size: 12px;
+    color: #353535;
 }
