@@ -415,3 +415,23 @@ main {
     text-decoration: none;
     padding: 7px 15px;
 }
+
+footer {
+    border-top: 1px solid #e5e5e5;
+    margin: 0 15px;
+    max-width: 1200px;
+}
+
+#share {
+    display: grid;
+    grid-template-columns: repeat(5, 20px);
+    gap: 10px;
+}
+
+#share img {
+    width: 100%;
+}
+
+#brandFooter {
+    width: 120px;
+}
