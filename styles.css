@@ -322,3 +322,44 @@ main {
 .problem a:hover {
     color: #087fe7;
 }
+
+#stats {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ratings {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+#ratings div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ratings h3 {
+    margin: 0;
+}
+
+#ratings p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #353535;
+}
+
+#ratings a {
+    color: #353535;
+    margin-top: 6px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#badges {
+    width: 100%;
+}
