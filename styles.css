@@ -274,3 +274,51 @@ main {
 #lastItem {
     border-bottom: none;
 }
+
+#team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#team p {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #7f7f7f;
+    line-height: 1.5;
+}
+
+#problems {
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    gap: 15px;
+    text-align: center;
+}
+
+.problem h3 {
+    margin: 0;
+}
+
+#line1 {
+    border-left: 1px solid #e5e5e5;
+}
+
+#line2 {
+    border-left: 1px solid #e5e5e5;
+}
+
+.problem a {
+    color: black;
+}
+
+.problem a:hover {
+    color: #087fe7;
+}
