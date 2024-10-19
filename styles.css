@@ -64,15 +64,16 @@ header {
 }
 
 .items {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 header a {
     color: var(--black);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 13.5px;
     font-weight: 450;
 }
 
@@ -93,7 +94,6 @@ header a {
     position: absolute;
     display: none;
     flex-direction: column;
-    width: 250px;
     padding: 5px;
     border-radius: 3px;
     background-color: var(--white);
@@ -104,19 +104,23 @@ header a {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 5px 10px;
+    padding: 7px 10px;
     border-radius: 3px;
 }
 
 .subMenuItem p {
     margin: 0;
     margin-top: 3px;
-    font-size: var(--fs12);
+    font-size: var(--fs13);
     color: var(--gray);
     font-weight: 320;
 }
 
-.subMenuItem img {
+.subMenuItem:hover {
+    background-color: var(--whiteSmoke);
+}
+
+#subMenu1 img {
     width: 20px;
     padding: 5px;
     border: 1px solid var(--platinum);
@@ -124,8 +128,34 @@ header a {
     background-color: var(--white);
 }
 
-.subMenuItem:hover {
-    background-color: var(--whiteSmoke);
+#subMenu1 {
+    width: 250px;
+}
+
+#subMenu2 {
+    width: 135px;
+}
+
+#subMenu3 {
+    width: 135px;
+}
+
+#subMenu4 {
+    width: 175px;
+}
+
+#subMenuItemText {
+    padding-left: 10px;
+    color: var(--graniteGray);
+    font-size: var(--fs13);
+    font-weight: 450;
+}
+
+#subMenuItemText a {
+    color: var(--graniteGray);
+    font-size: var(--fs13);
+    font-weight: 450;
+    text-decoration: underline;
 }
 
 #line {
