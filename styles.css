@@ -3,6 +3,33 @@
     font-family: inter;
 }
 
+:root {
+    --black: #050505;
+    --white: #ffffff;
+    --smokyBlack: #121212;
+    --jetBlack: #353535;
+    --graniteGray: #666666;
+    --gray: #7f7f7f;
+    --spanishGray: #999999;
+    --platinum: #e5e5e5;
+    --whiteSmoke: #f4f4f4;
+    --azure: #087fe7;
+    --shadow01: rgba(0, 0, 0, 0.1);
+    --shadow02: rgba(0, 0, 0, 0.2);
+    --fs53: 53px;
+    --fs45: 45px;
+    --fs36: 36px;
+    --fs26: 26px;
+    --fs24: 24px;
+    --fs18: 18px;
+    --fs15: 15px;
+    --fs14: 14px;
+    --fs13-5: 13.5px;
+    --fs13: 13px;
+    --fs12: 12px;
+    --border: 1.5px solid #e5e5e5;
+}
+
 body {
     margin: 0;
     font-family: inter;
@@ -20,8 +47,8 @@ header {
     display: flex;
     gap: 15px;
 
-    background-color: white;
-    border-bottom: 1px solid #e5e5e5;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--platinum);
 }
 
 #brand {
@@ -30,7 +57,7 @@ header {
     align-items: center;
 }
 
-nav {
+#mainMenu {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -43,7 +70,7 @@ nav {
 }
 
 header a {
-    color: #050505;
+    color: var(--black);
     text-decoration: none;
     font-size: 13px;
     font-weight: 450;
@@ -55,19 +82,19 @@ header a {
 }
 
 .navItem:hover {
-    background-color: #f4f4f4;
+    background-color: var(--whiteSmoke);
 }
 
 #line {
-    border-right: 1.5px solid #e5e5e5;
+    border-right: var(--border);
     height: 20px;
     align-self: center;
 }
 
 .button {
-    background-color: #050505;
-    color: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: var(--black);
+    color: var(--white);
+    box-shadow: 0 0 20px var(--shadow02);
     border-radius: 3px;
     font-size: 13px;
     font-weight: 550;
@@ -76,7 +103,7 @@ header a {
 }
 
 .button:hover {
-    background-color: #353535;
+    background-color: var(--jetBlack);
 }
 
 #hamburger img {
@@ -91,7 +118,7 @@ header a {
 }
 
 #hamburger:hover {
-    background-color: #f4f4f4;
+    background-color: var(--whiteSmoke);
 }
 
 main {
@@ -114,7 +141,7 @@ main {
     margin-top: 10px;
     margin-bottom: 25px;
     line-height: 1.5;
-    color: #7f7f7f;
+    color: var(--gray);
     font-size: 18px;
 }
 
@@ -126,8 +153,8 @@ main {
 #logos {
     margin-top: 75px;
     padding: 30px;
-    border-top: 1.5px solid #e5e5e5;
-    border-bottom: 1.5px solid #e5e5e5;
+    border-top: var(--border);
+    border-bottom: var(--border);
 
     display: flex;
     flex-wrap: wrap;
@@ -157,13 +184,13 @@ main {
     width: 45%;
     font-size: 15px;
     line-height: 1.5;
-    color: #7f7f7f;
+    color: var(--gray);
 }
 
 .sectionImage {
     width: 100%;
     margin-top: 35px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px var(--shadow01);
     border-radius: 5px;
 }
 
@@ -176,7 +203,7 @@ main {
 .quoteText {
     font-size: 36px;
     font-weight: 650;
-    color: #999999;
+    color: var(--spanishGray);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -204,15 +231,11 @@ main {
     margin-top: 5px;
     font-size: 12px;
     font-weight: 320;
-    color: #7f7f7f;
+    color: var(--gray);
 }
 
 #quote2 {
     text-align: justify;
-}
-
-#quote3 {
-    font-size: 38px;
 }
 
 #plan {
@@ -221,8 +244,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top: 1.5px solid #e5e5e5;
-    border-bottom: 1.5px solid #e5e5e5;
+    border-top: var(--border);
+    border-bottom: var(--border);
 }
 
 #offer {
@@ -242,14 +265,14 @@ main {
     margin-top: 7px;
     margin-bottom: 20px;
     font-size: 15px;
-    color: #7f7f7f;
+    color: var(--gray);
     line-height: 1.5;
 }
 
 #features {
     margin-bottom: 75px;
     width: 50%;
-    background-color: #f4f4f4;
+    background-color: var(--whiteSmoke);
     padding: 20px 30px;
     border-radius: 3px;
 }
@@ -258,15 +281,15 @@ main {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    color: #7f7f7f;
+    color: var(--gray);
     font-size: 14px;
     font-weight: 450;
-    border-bottom: 1.5px solid #e5e5e5;
+    border-bottom: var(--border);
     padding: 10px 0;
 }
 
 #barky {
-    color: black;
+    color: var(--black);
     font-weight: 450;
 }
 
@@ -294,7 +317,7 @@ main {
     margin-top: 5px;
     margin-bottom: 15px;
     font-size: 15px;
-    color: #7f7f7f;
+    color: var(--gray);
     line-height: 1.5;
 }
 
@@ -312,20 +335,20 @@ main {
 }
 
 #line1 {
-    border-left: 1px solid #e5e5e5;
+    border-left: var(--border);
 }
 
 #line2 {
-    border-left: 1px solid #e5e5e5;
+    border-left: var(--border);
 }
 
 .problem a {
-    color: black;
+    color: var(--black);
     font-size: 15px;
 }
 
 .problem a:hover {
-    color: #087fe7;
+    color: var(--azure);
 }
 
 #stats {
@@ -361,11 +384,11 @@ main {
     margin-top: 5px;
     font-size: 15px;
     line-height: 1.5;
-    color: #353535;
+    color: var(--jetBlack);
 }
 
 #ratings a {
-    color: #353535;
+    color: var(--jetBlack);
     font-size: 15px;
     line-height: 1.5;
 }
@@ -397,19 +420,19 @@ main {
 
 #percentages h3 {
     margin: 0;
-    color: #666666;
+    color: var(--graniteGray);
     font-size: 45px;
 }
 
 #percentages p {
     margin: 0;
     margin-top: 5px;
-    color: #7f7f7f;
+    color: var(--gray);
     font-size: 15px;
 }
 
 .partingLine {
-    border-left: 1px solid #e5e5e5;
+    border-left: var(--border);
 }
 
 #try {
@@ -425,11 +448,11 @@ main {
 #try p {
     margin-bottom: 20px;
     font-size: 14px;
-    color: #7f7f7f;
+    color: var(--gray);
 }
 
 footer {
-    border-top: 1px solid #e5e5e5;
+    border-top: var(--border);
     margin: 0 15px;
     max-width: 1200px;
     padding: 75px 100px;
@@ -459,7 +482,7 @@ footer {
     font-size: 13px;
     font-weight: 450;
     line-height: 1.5;
-    color: #353535;
+    color: var(--jetBlack);
 }
 
 .groups {
@@ -476,7 +499,7 @@ footer {
 
 .links {
     text-decoration: none;
-    color: #7f7f7f;
+    color: var(--gray);
     font-weight: 450;
 }
 
@@ -485,14 +508,14 @@ footer {
 }
 
 @media (max-width: 600px) {
-    nav {
-        display: none;
-    }
-
     header {
         justify-content: space-between;
         border-bottom: none;
         position: relative;
+    }
+
+    #mainMenu {
+        display: none;
     }
 
     #hamburger {
@@ -535,10 +558,6 @@ footer {
 
     #quote2 {
         text-align: center;
-    }
-
-    #quote3 {
-        font-size: 24px;
     }
 
     #offer {
