@@ -76,12 +76,55 @@ header a {
     font-weight: 450;
 }
 
-.navItem {
+.mmItem {
     padding: 5px 10px;
     border-radius: 3px;
 }
 
-.navItem:hover {
+.mmItem:hover {
+    background-color: var(--whiteSmoke);
+}
+
+.mainMenuItem:hover nav.subMenu {
+    display: flex;
+}
+
+.subMenu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    width: 250px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: var(--white);
+    box-shadow: 0 0 10px var(--shadow02);
+}
+
+.subMenuItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.subMenuItem p {
+    margin: 0;
+    margin-top: 3px;
+    font-size: var(--fs12);
+    color: var(--gray);
+    font-weight: 320;
+}
+
+.subMenuItem img {
+    width: 20px;
+    padding: 5px;
+    border: 1px solid var(--platinum);
+    border-radius: 3px;
+    background-color: var(--white);
+}
+
+.subMenuItem:hover {
     background-color: var(--whiteSmoke);
 }
 
