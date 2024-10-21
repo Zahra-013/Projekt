@@ -48,7 +48,7 @@ header {
     gap: 15px;
 
     background-color: var(--white);
-    border-bottom: 1px solid var(--platinum);
+    border-bottom: var(--border);
 }
 
 #brand {
@@ -123,7 +123,7 @@ header a {
 #subMenu1 img {
     width: 20px;
     padding: 5px;
-    border: 1px solid var(--platinum);
+    border: var(--border);
     border-radius: 5px;
     background-color: var(--white);
 }
@@ -193,7 +193,6 @@ header a {
 
 #hamburger img {
     width: 20px;
-    display: flex;
 }
 
 #hamburger {
@@ -218,7 +217,7 @@ main {
 
 #hero div h1 {
     margin-bottom: 0;
-    font-size: var(--fs45);
+    font-size: var(--fs53);
     line-height: 1.1;
 }
 
@@ -233,7 +232,6 @@ main {
 #hero img {
     width: 100%;
     height: auto;
-    justify-self: center;
 }
 
 #logos {
@@ -291,6 +289,10 @@ main {
     margin-bottom: 20px;
 }
 
+#quote2 {
+    text-align: justify;
+}
+
 .person {
     display: flex;
     justify-content: center;
@@ -314,10 +316,6 @@ main {
     font-size: var(--fs12);
     font-weight: 320;
     color: var(--gray);
-}
-
-#quote2 {
-    text-align: justify;
 }
 
 #plan {
@@ -560,9 +558,9 @@ footer {
 #contact p {
     margin-bottom: 20px;
     font-size: var(--fs13);
-    font-weight: 450;
+    font-weight: 400;
     line-height: 1.5;
-    color: var(--jetBlack);
+    color: var(--smokyBlack);
 }
 
 .groups {
@@ -648,14 +646,6 @@ footer {
         text-align: center;
     }
 
-    #team h2 {
-        font-size: var(--fs26);
-    }
-
-    #team p {
-        font-size: var(--fs14);
-    }
-
     #problems {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -668,22 +658,6 @@ footer {
 
     .hide {
         display: none;
-    }
-
-    #stats h2 {
-        font-size: var(--fs26);
-    }
-
-    #ratings h3 {
-        font-size: var(--fs18);
-    }
-
-    #ratings p {
-        font-size: var(--fs14);
-    }
-
-    #ratings a {
-        font-size: var(--fs14);
     }
 
     #percentages {
@@ -728,6 +702,10 @@ footer {
         margin: 10px auto;
     }
 
+    #logos {
+        padding: 20px 0;
+    }
+
     .logo {
         width: 80px;
     }
@@ -766,12 +744,36 @@ footer {
         gap: 40px;
     }
 
+    #team h2 {
+        font-size: var(--fs26);
+    }
+
+    #team p {
+        font-size: var(--fs14);
+    }
+
     #ratings {
         grid-template-columns: 1fr;
     }
 
     #ratings div {
         text-align: left;
+    }
+
+    #stats h2 {
+        font-size: var(--fs26);
+    }
+
+    #ratings h3 {
+        font-size: var(--fs18);
+    }
+
+    #ratings p {
+        font-size: var(--fs14);
+    }
+
+    #ratings a {
+        font-size: var(--fs14);
     }
 
     #percentages {
