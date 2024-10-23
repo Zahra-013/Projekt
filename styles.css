@@ -235,18 +235,20 @@ main {
 }
 
 #logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
     margin-top: 75px;
-    padding: 20px;
+    padding: 40px 30px;
     border-top: var(--border);
     border-bottom: var(--border);
     text-align: center;
 }
 
 .logo {
-    width: 100px;
     height: 25px;
     object-fit: contain;
-    padding: 10px;
 }
 
 .section {
@@ -634,14 +636,6 @@ footer {
         margin-bottom: 20px;
     }
 
-    #logos {
-        padding: 20px 10px;
-    }
-
-    .logo {
-        width: 90px;
-    }
-
     #quote2 {
         text-align: center;
     }
@@ -700,14 +694,6 @@ footer {
 
     #hero div h1 {
         margin: 10px auto;
-    }
-
-    #logos {
-        padding: 20px 0;
-    }
-
-    .logo {
-        width: 80px;
     }
 
     .sectionHeading {
